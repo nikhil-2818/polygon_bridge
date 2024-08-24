@@ -1,7 +1,7 @@
 # Polygon Bridge
 
-### Contract Address (Sepolia Testnet): 
-### Bridged Contract Address (Amoy Testnet): 
+### Contract Address (Sepolia Testnet): '0x8dCF5ec7CC60ffc772405E4C03e54264cE183C7e'
+### Bridged Contract Address (Amoy Testnet): '0x185b98c99Bf42c64Bc77BdAe6AD72Ed101665D85'
 
 ## Description
 
@@ -50,13 +50,13 @@ The script will mint the specified number of NFTs and assign them to your addres
 
 Transfer all NFTs from Ethereum to Polygon using the FxPortal Bridge:
 ```
-npx hardhat run scripts/approveAndBridge.js --network sepolia
+npx hardhat run scripts/approve.js --network sepolia
 ```
 ### Checking the balance of the wallet
 
 Run the following command to get the balance of the particular wallet address
 ```
-npx hardhat run scripts/balance.js --network sepolia
+npx hardhat run scripts/balance.js --network amoy
 ```
 
 ## Contract Summary
