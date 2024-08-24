@@ -9,8 +9,8 @@ module.exports = {
       chainId:11155111,
       accounts:[process.env.SEP_PRIV_KEY]
     },
-    mumbai: {
-      url: process.env.MUMBAI_RPC_URL,
+    amoy: {
+      url: process.env.AMOY_RPC_URL,
       accounts: [process.env.PRIVATE_KEY],
     },
   }
